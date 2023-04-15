@@ -1,5 +1,5 @@
 // Question no 2
-/*
+ /*
 #include<stdio.h>
 int main(){
     int n1,n2,sum1=0,sum2=0;
@@ -26,13 +26,14 @@ int main(){
 
     return 0;
 }
-*///QUESTION NO 1.
+*/
+//QUESTION NO 1.
 // Write a program in C that takes as input a set of numbers and
 // calculates the mean, variance and standard deviation. (variance
 // is defined as Σ [(xi - x)^2]/n - 1 , where xi =i th number in the set, x
 // is the mean and n=cardinality of the set ; standard deviation is the
 // square root of variance).
-
+/*
 #include <stdio.h>
 #include <math.h>
 int main()
@@ -63,7 +64,7 @@ int main()
 
     return 0;
 }
-
+*/
 /*
  Write a C program to accept the basic salary of an employee 
 from the user. Calculate the gross salary on the following basis: 
@@ -106,3 +107,33 @@ int main()
 
 }
 */
+
+#include <stdio.h>
+
+int main(){
+    float sumAmount = 0;
+    int unit = 0, unitCopy;
+    int unitIncreased = 0;
+
+    printf("\nEnter unit of electricity used : ");
+    scanf("%d", &unit);
+
+    unitCopy = unit;
+    
+    if(unit > 300){
+        unitIncreased = unit-300;
+        sumAmount += unitIncreased*2;
+        unit = unit-unitIncreased;
+    }
+    if(unit>=201 && unit <= 300){
+        unitIncreased = unit-200;
+        sumAmount += unitIncreased*1.5;
+        unit = unit-unitIncreased;
+    }
+    if(unit<=200){
+        sumAmount += unit*1;
+    }
+
+    printf("\nTotal Unit : %d\nTotal bill amount = %.2f", unitCopy, sumAmount);
+    return 0;
+}
