@@ -107,7 +107,7 @@ int main()
 
 }
 */
-
+/*
 #include <stdio.h>
 
 int main(){
@@ -135,5 +135,34 @@ int main(){
     }
 
     printf("\nTotal Unit : %d\nTotal bill amount = %.2f", unitCopy, sumAmount);
+    return 0;
+}
+
+*/
+#include <stdio.h>
+
+int main(){
+    int p;
+    printf("Enter no of lines:-");
+    scanf("%d",& p);
+    int n = p;
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < i; j++)
+        {
+            printf("  ");
+        }
+
+        for (int k = 0; k < n-i; k++)
+        {
+            printf("* ");
+        }
+
+        printf("\n");
+        printf("\n");
+        
+    }
+    
     return 0;
 }
