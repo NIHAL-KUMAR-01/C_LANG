@@ -17,3 +17,17 @@ int main(){
 
     return 0;
 }
+
+
+//              OUTPUT
+/*
+    Enter num 1 25
+    Enter num 2 30
+    BEFORE SWAPPING 
+
+    The value of num1=25
+    The value of num2=30
+    AFTER SWAPPING 
+
+    The value of num1=30
+    The value of num2=25*/

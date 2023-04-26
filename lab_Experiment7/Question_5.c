@@ -25,3 +25,8 @@ int main() {
 
     return 0;
 }
+
+//              OUTPUT
+/*
+        After swapping, arr1 is: 6 7 8 9 10 
+        After swapping, arr2 is: 1 2 3 4 5 */

@@ -32,3 +32,18 @@ int main() {
 
    return 0;
 }
+
+//              OUTPUT
+/*
+   Enter the size of the array: 5
+Enter 5 elements in the first array:
+3
+6
+9
+8
+5
+
+Elements of the first array are:
+3 6 9 8 5 
+Elements of the second array are:
+3 6 9 8 5 */
