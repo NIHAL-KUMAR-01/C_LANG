@@ -2,11 +2,12 @@
 
 #include <stdio.h>
 
+
 int main(){
     char value[100];
     
     printf("Enter a string : ");
-    scanf("%s", &value);
+    scanf("%s",&value);
 
     int vowels = 0;
     int consonent = 0;
