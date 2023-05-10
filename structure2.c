@@ -22,7 +22,7 @@ int main()
 {
     struct student s[5];
     printf("=====================================\n");
-    printf(" Enter Information of students \n\n\n");
+    printf(" Enter Information of students \n");
     printf("=====================================\n");
     // STORING INFORMATION
     for (int i = 0; i < 5; i++)
