@@ -24,7 +24,7 @@ int main(){
     printf("\nDISPLAYING DATA\n\n");
     for (int i = 0; i < 3; i++)
     {
-        printf("\nName of student: %s\nRegistration no %s\nBranch %s \nSemester %d\n      ****",s[i].name,s[i].regno,s[i].branch,s[i].semester);
+        printf("\nName of student: %s\nRegistration no %s\nBranch %s \nSemester %d\n",s[i].name,s[i].regno,s[i].branch,s[i].semester);
     }
     
 

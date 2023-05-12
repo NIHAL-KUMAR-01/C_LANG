@@ -1,3 +1,5 @@
 NIHAL 18 M bbsr patna Purushottam_Express-11:05
 prince 20 m bbsr patna Purushottam_Express-11:05
 raghav 19 m bbsr+ patna Purushottam_Express-11:05
+RAGHAV 18 M ranchi bbsr Duronto_Express-12:00
+rajan 19 f jsr jsr Duronto_Express-12:00

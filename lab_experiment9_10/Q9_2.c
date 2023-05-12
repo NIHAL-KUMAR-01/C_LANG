@@ -12,7 +12,7 @@ int main(){
     d1.feet=12;
     d1.inch=12;
     d2.feet=12;
-    d2.inch=12;
+    d2.inch=14;
 
     d1.feet=d1.feet+d2.feet;
     d1.inch=d1.inch+d2.inch;
